@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background: url(/assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100%;
+    background-color: #121214;
+}
+
+body *{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+}
+
+header{
+    padding-top: 32px;
+    height: 152px;
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main{
+    max-width: 520px;
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 10px;
+    padding-top: 4px;
+}
+
+section div {
+    background-color: #262629;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section p{
+    color: #c1c1c1;
+    letter-spacing: -0.18px;
+}
+section ul {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+section img{
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid #555555;
+}
