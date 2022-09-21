@@ -8,9 +8,10 @@
 }
 
 body{
-    background: url(/assets/Fundo.jpg);
+    background: url(./assets/Fundo.jpg);
     background-position: top center;
     background-size: 100%;
+    background-repeat: no-repeat;
     background-color: #121214;
 }
 
@@ -39,7 +40,7 @@ header img {
 }
 
 main{
-    max-width: 520px;
+    max-width: 580px;
     width: 90%;
     margin: 32px auto;
     display: flex;
